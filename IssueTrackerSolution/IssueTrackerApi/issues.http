@@ -1,0 +1,16 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+
+POST http://localhost:1338/software/excel/issues/high-priority-issues
+Content-Type: application/json
+Authorization: bearer 38938983938
+
+{
+
+    "description": "My computer is on fire"
+
+}
+
+###
+
+GET http://localhost:1338/issues
